@@ -23,16 +23,19 @@ A static, multi-page education/institute website built with plain HTML & CSS.
 Add your screenshots to a `screenshots/` folder in the project root, then they'll render below automatically on GitHub.
 
 ### Homepage
-![Homepage](screenshots/home.png)
+![Homepage](screenshots/Homepage.png)
 
 ### About Page
-![About](screenshots/about.png)
+![About](screenshots/About.png)
 
 ### Courses Page
-![Courses](screenshots/courses.png)
+![Courses](screenshots/Courses.png)
 
 ### Contact Page
-![Contact](screenshots/contact.png)
+![Contact](screenshots/Contact.png)
+
+### Blog Page
+![Blog](screenshots/Blog.png)
 
 ## ✨ Features
 
