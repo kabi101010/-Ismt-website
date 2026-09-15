@@ -1,8 +1,20 @@
-\# ISMT Website
+\# ISMT College Website
 
 
 
-A static, multi-page education/institute website built with plain HTML \& CSS.
+A responsive, multi-page website for \*\*ISMT College\*\* — built with plain HTML5, CSS3, and vanilla JS/jQuery. No frameworks, no build step, just open and run.
+
+
+
+!\[HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat\&logo=html5\&logoColor=white)
+
+!\[CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat\&logo=css3\&logoColor=white)
+
+!\[JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat\&logo=javascript\&logoColor=black)
+
+!\[jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat\&logo=jquery\&logoColor=white)
+
+!\[No Build Step](https://img.shields.io/badge/build-none-lightgrey)
 
 
 
@@ -10,7 +22,7 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 
 
-> Run locally with VS Code's Live Server extension (see "Running Locally" below), or add a GitHub Pages link here once deployed.
+Run locally with VS Code's Live Server extension — see \[Running Locally](#️-running-locally) below — or add a GitHub Pages link here once deployed.
 
 
 
@@ -20,7 +32,7 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 | Page | File | Description |
 
-|------|------|-------------|
+|---|---|---|
 
 | Home | `index.html` | Landing page with hero banner, highlights, featured courses, and trust/partner logos. |
 
@@ -42,23 +54,33 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 
 
-!\[Homepage](screenshots/Homepage.png)
+<table>
 
+<tr>
 
+<td width="50%"><b>Homepage</b><br><img src="screenshots/Homepage.png" alt="ISMT Homepage"></td>
 
-!\[About](screenshots/About.png)
+<td width="50%"><b>About</b><br><img src="screenshots/About.png" alt="ISMT About page"></td>
 
+</tr>
 
+<tr>
 
-!\[Courses](screenshots/Courses.png)
+<td width="50%"><b>Courses</b><br><img src="screenshots/Courses.png" alt="ISMT Courses page"></td>
 
+<td width="50%"><b>Blog</b><br><img src="screenshots/Blog.png" alt="ISMT Blog page"></td>
 
+</tr>
 
-!\[Contact](screenshots/Contact.png)
+<tr>
 
+<td width="50%"><b>Contact</b><br><img src="screenshots/Contact.png" alt="ISMT Contact page"></td>
 
+<td width="50%"></td>
 
-!\[Blog](screenshots/Blog.png)
+</tr>
+
+</table>
 
 
 
@@ -114,7 +136,7 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 &#x20;  ```bash
 
-&#x20;  git clone https://github.com/<your-username>/<your-repo-name>.git
+&#x20;  git clone https://github.com/kabi101010/-Ismt-website.git
 
 &#x20;  ```
 
@@ -122,9 +144,9 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 2\. Open the folder in VS Code.
 
-3\. Install the Live Server extension.
+3\. Install the \*\*Live Server\*\* extension.
 
-4\. Right-click `index.html` → Open with Live Server.
+4\. Right-click `index.html` → \*\*Open with Live Server\*\*.
 
 5\. The site will open in your browser and auto-reload as you make changes.
 
@@ -138,7 +160,7 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 ismt-website-main/
 
-├── index.html            # Homepage
+├── index.html                       # Homepage
 
 ├── about.html
 
@@ -162,13 +184,13 @@ ismt-website-main/
 
 ├── contact.css
 
-├── style.css             # Shared/global styles
+├── style.css                        # Shared/global styles
 
-├── script.js             # Shared site JavaScript (menu, animations, forms, etc.)
+├── script.js                        # Shared site JavaScript (menu, animations, forms, etc.)
 
-├── img/                  # Images and icons
+├── img/                              # Images and icons
 
-└── screenshots/          # README screenshots
+└── screenshots/                      # README screenshots
 
 ```
 
