@@ -22,27 +22,17 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 
 
-### Homepage
+### &#x20;  !\[Homepage](screenshots/Homepage.png)
 
-!\[Homepage](screenshots/Homepage.png)
+### &#x20;  !\[About](screenshots/About.png)
 
-### About Page
+### &#x20;  !\[Courses](screenshots/Courses.png)
 
-!\[About](screenshots/About.png)
+### &#x20;  !\[Contact](screenshots/Contact.png)
 
-### Courses Page
+### &#x20;  !\[Blog](screenshots/Blog.png)
 
-!\[Courses](screenshots/Courses.png)
-
-### Contact Page
-
-!\[Contact](screenshots/Contact.png)
-
-### Blog Page
-
-!\[Blog](screenshots/Blog.png)
-
-## ✨ Features
+### ✨ Features
 
 * Responsive mobile menu with auto-close on link tap
 * Active page highlighting in the navigation
