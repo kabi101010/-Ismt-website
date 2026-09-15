@@ -1,163 +1,168 @@
-# \# ISMT Website
+\# ISMT Website
 
-# 
 
-# A static, multi-page education/institute website built with plain HTML \& CSS.
 
-# 
+A static, multi-page education/institute website built with plain HTML \& CSS.
 
-# \## 🔗 Live Preview
 
-# 
 
-# > Run locally with VS Code's Live Server extension (see "Running Locally" below), or add a GitHub Pages link here once deployed.
+\## 🔗 Live Preview
 
-# 
 
-# \## 📄 Pages
 
-# 
+> Run locally with VS Code's Live Server extension (see "Running Locally" below), or add a GitHub Pages link here once deployed.
 
-# | Page | File | Description |
 
-# |------|------|-------------|
 
-# | Home | `index.html` | Landing page with hero banner, highlights, featured courses, and trust/partner logos. |
+\## 📄 Pages
 
-# | About | `about.html` | Information about the institute, its mission, and background. |
 
-# | Courses | `courses.html` | Listing of all available courses. |
 
-# | Course Detail | `course-inner.html` | Detailed view of a single course. |
+| Page | File | Description |
 
-# | Blog | `blog.html` | List of blog articles. |
+|------|------|-------------|
 
-# | Post | `post.html` | Individual blog post page. |
+| Home | `index.html` | Landing page with hero banner, highlights, featured courses, and trust/partner logos. |
 
-# | Contact | `contact.html` | Contact form and details. |
+| About | `about.html` | Information about the institute, its mission, and background. |
 
-# 
+| Courses | `courses.html` | Listing of all available courses. |
 
-# \## 🖼️ Screenshots
+| Course Detail | `course-inner.html` | Detailed view of a single course. |
 
-# 
-### Homepage
-![Homepage](screenshots/Homepage.png)
+| Blog | `blog.html` | List of blog articles. |
 
-### About Page
-![About](screenshots/About.png)
+| Post | `post.html` | Individual blog post page. |
 
-### Courses Page
-![Courses](screenshots/Courses.png)
+| Contact | `contact.html` | Contact form and details. |
 
-### Contact Page
-![Contact](screenshots/Contact.png)
 
-### Blog Page
-![Blog](screenshots/Blog.png)
-# 
 
-# \## ✨ Features
+\## 🖼️ Screenshots
 
-# 
 
-# \- Responsive mobile menu with auto-close on link tap
 
-# \- Active page highlighting in the navigation
+!\[Homepage](screenshots/Homepage.png)
 
-# \- Sticky navbar with a scroll shadow
 
-# \- Fade-in scroll animations on sections and cards
 
-# \- Floating back-to-top button
+!\[About](screenshots/About.png)
 
-# \- Live countdown timer on the homepage registration section
 
-# \- Client-side validation with inline feedback on the contact, registration, and newsletter forms
 
-# \- Real, distinct course titles/prices matching each course image (no more duplicated placeholder cards)
+!\[Courses](screenshots/Courses.png)
 
-# \- SEO-friendly meta descriptions and unique page titles on every page
 
-# \- Descriptive alt text on logo, course, and profile images for accessibility
 
-# \- Education-relevant footer content (replacing leftover template placeholder links)
+!\[Contact](screenshots/Contact.png)
 
-# 
 
-# \## 🛠️ Tech Stack
 
-# 
+!\[Blog](screenshots/Blog.png)
 
-# \- HTML5
 
-# \- CSS3
 
-# \- Vanilla JS + jQuery (`script.js`, shared across all pages)
+\## ✨ Features
 
-# \- No build tools or dependencies required
 
-# 
 
-# \## ▶️ Running Locally
+\- Responsive mobile menu with auto-close on link tap
 
-# 
+\- Active page highlighting in the navigation
 
-# 1\. Clone this repo:
+\- Sticky navbar with a scroll shadow
 
-# &#x20;  ```bash
+\- Fade-in scroll animations on sections and cards
 
-# &#x20;  git clone https://github.com/<your-username>/<your-repo-name>.git
+\- Floating back-to-top button
 
-# &#x20;  ```
+\- Live countdown timer on the homepage registration section
 
-# 2\. Open the folder in VS Code.
+\- Client-side validation with inline feedback on the contact, registration, and newsletter forms
 
-# 3\. Install the Live Server extension.
+\- Real, distinct course titles/prices matching each course image (no more duplicated placeholder cards)
 
-# 4\. Right-click `index.html` → Open with Live Server.
+\- SEO-friendly meta descriptions and unique page titles on every page
 
-# 5\. The site will open in your browser and auto-reload as you make changes.
+\- Descriptive alt text on logo, course, and profile images for accessibility
 
-# 
+\- Education-relevant footer content (replacing leftover template placeholder links)
 
-# \## 📁 Project Structure
 
-# 
 
-# ```
+\## 🛠️ Tech Stack
 
-# ismt-website-main/
 
-# ├── index.html          # Homepage
 
-# ├── about.html / about.css
+\- HTML5
 
-# ├── courses.html
+\- CSS3
 
-# ├── course-inner.html / course-inner.css
+\- Vanilla JS + jQuery (`script.js`, shared across all pages)
 
-# ├── blog.html / blog.css
+\- No build tools or dependencies required
 
-# ├── post.html / post.css
 
-# ├── contact.html / contact.css
 
-# ├── style.css            # Shared/global styles
+\## ▶️ Running Locally
 
-# ├── script.js             # Shared site JavaScript (menu, animations, forms, etc.)
 
-# ├── img/                  # Images and icons
 
-# └── screenshots/          # README screenshots (add your own)
+1\. Clone this repo:
 
-# ```
+&#x20;  ```bash
 
-# 
+&#x20;  git clone https://github.com/<your-username>/<your-repo-name>.git
 
-# \## 📜 License
+&#x20;  ```
 
-# 
+2\. Open the folder in VS Code.
 
-# Add your license here (e.g. MIT), or note that this is a personal/learning project.
+3\. Install the Live Server extension.
+
+4\. Right-click `index.html` → Open with Live Server.
+
+5\. The site will open in your browser and auto-reload as you make changes.
+
+
+
+\## 📁 Project Structure
+
+
+
+```
+
+ismt-website-main/
+
+├── index.html          # Homepage
+
+├── about.html / about.css
+
+├── courses.html
+
+├── course-inner.html / course-inner.css
+
+├── blog.html / blog.css
+
+├── post.html / post.css
+
+├── contact.html / contact.css
+
+├── style.css            # Shared/global styles
+
+├── script.js             # Shared site JavaScript (menu, animations, forms, etc.)
+
+├── img/                  # Images and icons
+
+└── screenshots/          # README screenshots (add your own)
+
+```
+
+
+
+\## 📜 License
+
+
+
+Add your license here (e.g. MIT), or note that this is a personal/learning project.
 
