@@ -41,25 +41,20 @@
 # \## 🖼️ Screenshots
 
 # 
+### Homepage
+![Homepage](screenshots/Homepage.png)
 
-# !\[Homepage](screenshots/Homepage.png)
+### About Page
+![About](screenshots/About.png)
 
-# 
+### Courses Page
+![Courses](screenshots/Courses.png)
 
-# !\[About](screenshots/About.png)
+### Contact Page
+![Contact](screenshots/Contact.png)
 
-# 
-
-# !\[Courses](screenshots/Courses.png)
-
-# 
-
-# !\[Contact](screenshots/Contact.png)
-
-# 
-
-# !\[Blog](screenshots/Blog.png)
-
+### Blog Page
+![Blog](screenshots/Blog.png)
 # 
 
 # \## ✨ Features
