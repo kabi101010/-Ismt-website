@@ -80,13 +80,13 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 \- Client-side validation with inline feedback on the contact, registration, and newsletter forms
 
-\- Real, distinct course titles/prices matching each course image (no more duplicated placeholder cards)
+\- Real, distinct course titles and prices matching each course image
 
 \- SEO-friendly meta descriptions and unique page titles on every page
 
 \- Descriptive alt text on logo, course, and profile images for accessibility
 
-\- Education-relevant footer content (replacing leftover template placeholder links)
+\- Education-relevant footer content
 
 
 
@@ -110,11 +110,15 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 1\. Clone this repo:
 
+
+
 &#x20;  ```bash
 
 &#x20;  git clone https://github.com/<your-username>/<your-repo-name>.git
 
 &#x20;  ```
+
+
 
 2\. Open the folder in VS Code.
 
@@ -134,27 +138,37 @@ A static, multi-page education/institute website built with plain HTML \& CSS.
 
 ismt-website-main/
 
-├── index.html          # Homepage
+├── index.html            # Homepage
 
-├── about.html / about.css
+├── about.html
+
+├── about.css
 
 ├── courses.html
 
-├── course-inner.html / course-inner.css
+├── course-inner.html
 
-├── blog.html / blog.css
+├── course-inner.css
 
-├── post.html / post.css
+├── blog.html
 
-├── contact.html / contact.css
+├── blog.css
 
-├── style.css            # Shared/global styles
+├── post.html
+
+├── post.css
+
+├── contact.html
+
+├── contact.css
+
+├── style.css             # Shared/global styles
 
 ├── script.js             # Shared site JavaScript (menu, animations, forms, etc.)
 
 ├── img/                  # Images and icons
 
-└── screenshots/          # README screenshots (add your own)
+└── screenshots/          # README screenshots
 
 ```
 
