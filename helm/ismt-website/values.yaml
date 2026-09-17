@@ -1,0 +1,32 @@
+# Default values for the ismt-website chart.
+# These can be overridden per-environment, e.g.:
+#   helm install ismt-website ./ismt-website --set replicaCount=4
+# or with a separate values-prod.yaml file.
+
+replicaCount: 2
+
+image:
+  repository: ismt-website
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 32Mi
+  limits:
+    cpu: 150m
+    memory: 64Mi
+
+probes:
+  path: /
+  port: 80
+  livenessInitialDelay: 5
+  livenessPeriod: 10
+  readinessInitialDelay: 3
+  readinessPeriod: 5
