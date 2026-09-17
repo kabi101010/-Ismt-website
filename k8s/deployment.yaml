@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ismt-website
+  labels:
+    app: ismt-website
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ismt-website
+  template:
+    metadata:
+      labels:
+        app: ismt-website
+    spec:
+      containers:
+        - name: ismt-website
+          image: ismt-website:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+
+          # Nginx serves the homepage at / — used as the health check
+          # target for both probes below.
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 10
+
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 5
+
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "32Mi"
+            limits:
+              cpu: "150m"
+              memory: "64Mi"
