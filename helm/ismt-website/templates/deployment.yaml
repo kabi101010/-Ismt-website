@@ -13,6 +13,13 @@ spec:
     metadata:
       labels:
         app: {{ .Chart.Name }}
+      # These annotations tell Prometheus to automatically discover
+      # and scrape this pod's exporter sidecar, without needing a
+      # separate static scrape config entry per app.
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9113"
+        prometheus.io/path: "/metrics"
     spec:
       containers:
         - name: {{ .Chart.Name }}
@@ -42,3 +49,21 @@ spec:
             limits:
               cpu: {{ .Values.resources.limits.cpu }}
               memory: {{ .Values.resources.limits.memory }}
+
+        # Sidecar: reads Nginx's /stub_status endpoint (plain text)
+        # and re-exposes it as Prometheus-format metrics on port 9113.
+        # This is the standard way to monitor Nginx, since Nginx
+        # itself doesn't speak Prometheus's format natively.
+        - name: nginx-exporter
+          image: nginx/nginx-prometheus-exporter:1.1.0
+          args:
+            - "-nginx.scrape-uri=http://localhost:80/stub_status"
+          ports:
+            - containerPort: 9113
+          resources:
+            requests:
+              cpu: "10m"
+              memory: "16Mi"
+            limits:
+              cpu: "50m"
+              memory: "32Mi"

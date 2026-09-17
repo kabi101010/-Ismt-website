@@ -7,7 +7,7 @@ replicaCount: 2
 
 image:
   repository: ismt-website
-  tag: latest
+  tag: v2
   pullPolicy: IfNotPresent
 
 service:
